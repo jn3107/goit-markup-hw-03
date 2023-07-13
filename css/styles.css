@@ -75,6 +75,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 }
 
 .header-logo-accent{
@@ -86,6 +87,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 }
 
 .header-container{
@@ -98,17 +100,22 @@ body{
     display: flex;
     align-items: center;
     gap: 76px;
+    
 }
 
 .header-menu{
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-address-list{
     display: flex;
     margin-left: auto;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-link{
@@ -127,6 +134,7 @@ body{
 
 .header-address{
     font-style: normal;
+    display: flex;
 }
 
 .header-address-link{
@@ -148,10 +156,12 @@ body{
 
 .hero{
     background-color: var(--navyblue);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-container{
-    padding: 188px 0px 292px;
+    padding-bottom: 292px;
 }
 
 .hero-title{
@@ -182,6 +192,7 @@ body{
     border-radius: 4px;
     border: none;
     margin: 0 auto;
+    min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -226,7 +237,8 @@ body{
 /*!----------DOING----------*/
 
 .doing{
-    background-color: #FFF; 
+    background-color: #FFF;
+    padding-bottom: 120px;
 }
 
 .doing-title{
@@ -243,7 +255,7 @@ body{
 
 .doing-list{
     display: flex;
-    gap: 24px
+    gap: 24px;
 }
 
 .doing-item{
@@ -282,6 +294,10 @@ body{
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.team-foto{
+    padding: 32px 16px 32px;
+}
+
 .team-name{
     color: var(--navyblue);
     text-align: center;
@@ -289,7 +305,7 @@ body{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
+    
     padding-bottom: 8px;
 }
 
@@ -299,14 +315,14 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
+    
 }
 
 /*!----------FOOTER----------*/
 
 .footer{
     background-color: var(--navyblue);
-    padding-top: 101.5px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -319,6 +335,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -345,6 +362,7 @@ body{
 
 .portfolio{
     background-color: #FFF;
+    padding-top: 96px;
     padding-bottom: 120px;
 }
 
@@ -352,8 +370,8 @@ body{
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
+    
 }
 
 .portfolio-filters-btn{
@@ -379,6 +397,7 @@ body{
 .portfolio-filters-btn:focus{
     background-color: var(--ocean);
     color: #ffffff;
+    border: 1px solid;
 }
 
 .portfolio-projects-list{
