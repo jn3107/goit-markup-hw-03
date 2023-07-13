@@ -64,7 +64,7 @@ body{
     padding-top: 25.5px;
     padding-bottom: 25.5px;
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
-    margin-right: 76px;
+    
 }
 
 .header-logo{
@@ -89,6 +89,10 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
+}
+
+.logo-container{
+    margin-right: 76px;
 }
 
 .header-container{
