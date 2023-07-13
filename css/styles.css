@@ -64,6 +64,7 @@ body{
     padding-top: 25.5px;
     padding-bottom: 25.5px;
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
+    margin-right: 76px;
 }
 
 .header-logo{
@@ -87,19 +88,22 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
+    
 }
 
 .header-container{
     display: flex;
     align-items: center;
     gap: 332px;
+    
 }
 
 .header-navigation {
     display: flex;
     align-items: center;
     gap: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
@@ -107,12 +111,6 @@ body{
     display: flex;
     gap: 40px;
     
-}
-
-.header-menu-item{
-    padding-top: 24px;
-    padding-bottom: 24px;
-
 }
 
 .header-address-list{
