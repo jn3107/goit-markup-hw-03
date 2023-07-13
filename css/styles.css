@@ -17,7 +17,7 @@ ul, ol{
     padding-left: 0;
 }
 
-.img{
+img{
     display: block;
 }
 
@@ -344,7 +344,8 @@ body{
 /*!----------PORTFOLIO----------*/
 
 .portfolio{
-    background-color: #FFF;  
+    background-color: #FFF;
+    padding-bottom: 120px;
 }
 
 .portfolio-filters-list{
@@ -385,18 +386,14 @@ body{
     flex-wrap: wrap;
     gap: 48px 24px;
     justify-content: center;
-    padding-bottom: 120px;
-    
 }
 
 .projects-item{
-    width: calc((100% - 24 * 2) / 3);
-    margin: 0 auto;
-    
+    width: calc((100% - 24px * 2) / 3);
+    margin: 0auto;
 }
 
 .projects-name{
-    
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
@@ -406,7 +403,6 @@ body{
 }    
 
 .projects-filters{
-   
     color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
@@ -414,8 +410,8 @@ body{
 }
 
 .foto-container{
-    border-top: none;
     padding: 32px 16px 32px 16px;
     border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
+    border-top: none;
 }
