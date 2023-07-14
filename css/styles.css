@@ -35,7 +35,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-  
+    outline: 2px solid red;
 }
 
 .visually-hidden {
@@ -62,8 +62,7 @@ body{
 /*!----------HEADER----------*/
 
 .header{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
 }
 
@@ -99,6 +98,8 @@ body{
 .header-navigation{
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu{
@@ -119,6 +120,7 @@ body{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
     
 }
 
@@ -261,7 +263,6 @@ body{
 
 .team{
     background-color: #F4F4FD;
-    
     padding-bottom: 120px;
 }
 
