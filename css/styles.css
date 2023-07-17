@@ -19,6 +19,8 @@ ul, ol{
 
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 body{
@@ -35,7 +37,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    
 }
 
 .visually-hidden {
@@ -75,6 +77,10 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+
     margin-right: 76px;
 }
 
@@ -98,8 +104,7 @@ body{
 .header-navigation{
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 .header-menu{
@@ -107,9 +112,11 @@ body{
     gap: 40px;
 }
 
+
+
 .header-address-list{
     display: flex;
-    margin-left: auto;
+   
     gap: 40px;
 }
 
@@ -121,7 +128,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     
-    
+    padding: 24px 0;
+    display: block;
 }
 
 .header-menu-link:hover,
@@ -131,7 +139,7 @@ body{
 
 .header-address{
     font-style: normal;
-    display: flex;
+    
 }
 
 .header-address-link{
@@ -153,11 +161,14 @@ body{
 
 .hero{
     background-color: var(--navyblue);
+
+    
+    
 }    
 
 .hero-container{
-    padding-top: 188px;
-    padding-bottom: 292px;
+padding: 188px 0;
+margin: 0 auto;
 }
 
 .hero-title{
@@ -168,6 +179,7 @@ body{
     line-height: 1.07;
     letter-spacing: 0.02em;
     
+    flex-direction: column;
     margin: 0 auto;
     max-width: 496px;
     margin-bottom: 48px;
@@ -245,7 +257,7 @@ body{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin: 0 auto;
+    
     margin-bottom: 72px;
 }
 
@@ -256,13 +268,16 @@ body{
 
 .doing-item{
     width: calc((100% - 48px) / 3);
-    margin-bottom: 120px;
+   
 }
 
 /*!----------TEAM----------*/
 
 .team{
     background-color: #F4F4FD;
+
+    padding-top: 120px;
+
     padding-bottom: 120px;
 }
 
@@ -310,7 +325,8 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+
+    text-align: center;
 }
 
 /*!----------FOOTER----------*/
@@ -332,6 +348,7 @@ body{
     text-transform: uppercase;
     
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -343,6 +360,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 }
 
 .footer-text{
@@ -350,7 +368,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 17.5px;
+    
     max-width: 264px;
 }
 
